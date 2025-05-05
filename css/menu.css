@@ -1,0 +1,44 @@
+.banner_menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.imagen_menu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.class_Menu{
+    margin:1rem;
+    padding: 0 11rem 0 11rem;
+}
+/*************** */
+.seccion h2 {
+    color:var(--titulos-color);
+    border-bottom: 2px solid #333;
+    font-size: 2.1rem;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.item {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.item-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.item-price {
+    float: right;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.extras {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+}

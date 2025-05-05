@@ -1,0 +1,117 @@
+.formulario_Contacto{
+    /* display: none; */
+    background-image: url(../assets/img/Cafe.jpg);
+    background-size: cover;
+}
+.form{
+    margin-bottom: 2rem;
+}
+.muestra_form{
+    margin: 3rem 0 2rem 2rem;
+}
+.muestra_form{
+    display: inline;
+    font-weight: 700;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    font-size: 2rem;
+    padding: 0.6rem 1.5rem;
+    cursor: pointer;
+    background-color: var(--primary-color) ;
+    color: white;
+    text-decoration: none;
+}
+.muestra_form:hover{
+    background-color: transparent ;
+    color: black;
+    border: 1px solid black;
+} 
+.form_Contacto {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    width: 400px; 
+    margin: 5rem auto; 
+}
+fieldset{
+    border: none;
+    margin:0 ;
+    padding: 0;
+}
+legend {
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: var(--titulos-color);
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.form_Nombre, .form_Apellido, .form_Email, .form_Telefono, .form_cometarios, .form_Enviar, .form_Calificacion {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 1rem;
+    border: 1px solid #eab4b4;
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+}
+select{
+    width: 100%; 
+    padding: 1rem;
+    border: 1px solid #eab4b4;
+    border-radius: 0.7rem;
+    font-size: 2.1rem;
+    color:var(--titulos-color);
+}
+textarea{
+    resize: vertical;
+}
+#enviar{
+    background-color: var(--primary-color) ;;
+    color: white;
+    padding: 10px 15px;
+    border:1px solid transparent;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 10rem;
+    transition: background-color 0.3s ease;
+}
+
+#enviar:hover {
+    background-color: transparent;
+    color: black;
+    border:1px solid black;
+}
+.reset:hover{
+    background-color: transparent;
+    color: black;
+    border:1px solid black;
+}
+.reset{
+    background-color: var(--primary-color) ;;
+    color: white;
+    padding: 10px 15px;
+    border:1px solid transparent;
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 11rem;
+    transition: background-color 0.3s ease;
+}
+.form_Enviar{
+    display: flex;
+    gap: 2rem;
+}

@@ -1,0 +1,149 @@
+.productos_Destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.grilla_Destacados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 0 1rem 0 1rem;
+    /* background-color: var(--background-color); */
+}
+.destacado_Botones{
+    /* display: flex; */
+    border-radius: 50%;
+    padding: 0.2rem 0.4rem 0 0.4rem;
+    border: 1px solid var(--primary-color);
+    left: 1.2rem;
+    position: absolute;
+    top:1rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    transition: all .3 ease;
+}
+
+/* Esto hace scroll */
+.destacado_Botones i::after{
+    content: 'Agregar a Favoritos';
+    font-size: 1rem;
+    background-color: white;
+    width: 6.5rem;
+    position: absolute;
+    bottom: 1.5rem;
+    left:105%;
+    border-radius: 0.5rem;
+    border: 1px solid burlywood;
+    padding: 4px;
+    line-height:1.3rem ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all .1 ease;
+    opacity: 0;
+    z-index: 1; 
+} 
+.destacado_Botones i:hover::after{
+    opacity: 1;
+    background: var(--primary-color);
+}
+.destacado_Botones:hover{
+    background-color: var(--primary-color);
+
+}
+.destacado_Botones:hover{
+    color:white;
+}
+.destado{
+    /* background: white; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    gap: 2rem;
+}
+.contenedor_imagen{
+    position: relative;
+    padding: 0.7rem;
+}
+.contenedor_imagen img{
+    width: 100%;
+}
+.destacado_Menu_Card{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, min-content);
+    row-gap: 1rem;
+}
+.estrellas{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+.destacado_Menu_Card h3{
+    grid-row: 2/3;
+    grid-column:1/-1;
+    font-size: 1.9rem;
+    
+}
+.agregar{
+    grid-column: 1/-1;
+    /* grid: row 2/3; */
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+.agregar i{
+    font-size: 1.9rem;
+    color:var(--primary-color);
+    border-radius: 50%;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    transition: all 0.3s ease;
+    position:relative;
+}
+.agregar p{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.agregar i:hover{
+    background: var(--primary-color);
+}
+.agregar i:hover{
+    color: white;
+    cursor: pointer;
+}
+.agregar i::after{
+    font-size: 1rem;
+    content: 'Comprar';
+    background-color: white;
+    width: 6rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 2.8rem;
+    left:85%;
+    border: 1px solid burlywood;
+    padding: 6px 0px 6px 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: all .1 ease;
+    opacity: 0;
+}
+.agregar i:hover::after{
+    opacity: 1;
+    background: var(--primary-color);
+
+}
+.tituloDestacados{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    color:var(--titulos-color);
+    text-shadow: 3px 3px 2px #a1a1a1;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    /* border: 1px solid whitesmoke; */
+    /* border-radius: 1rem;
+    background-color: rgb(255, 227, 192);
+    padding: 0 1.3rem; */
+    
+}

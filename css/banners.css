@@ -1,0 +1,46 @@
+.baner{
+    display: flex;
+    background: linear-gradient(100deg, #000000, #00000020),url(../assets/img/CAFECORAZON.png);
+    height: 54rem;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.contenido-Baner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 4000px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 20px 0px 40px;
+}
+.contenido-Baner p{
+    color:var(--primary-color);
+}
+.contenido-Baner h2{
+    color: white;
+    font-size: 3.5rem;
+    font-weight:500;
+}
+.contenido-Baner a{
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    background-color: var(--primary-color);
+    max-width:190px;
+    padding: 7px 15px;
+    border-radius: 35px;
+    border: 1.5px solid white;
+    max-height: 40px;
+    transition: all 0.3 ease;
+    /* display: inline-block; */
+}
+.contenido-Baner a:hover{
+    color:var(--primary-color);
+}
+.contenido-Baner a:hover{
+    background-color: transparent;
+}

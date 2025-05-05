@@ -1,0 +1,73 @@
+.principal_Cafes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.principal_Cafes h2{
+    padding: 1rem 2rem;
+    font-size: 2.8rem;
+    color:var(--titulos-color);
+    text-shadow: 3px 3px 2px #ccc;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+.descripcion_cafe{
+    display: flex;
+    flex-direction: column;
+    align-items:normal;
+    max-width: 33rem;;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color:white;
+    padding: 10rem 3rem;
+}
+.descripcion_cafe h3{
+    font-size: 3.4rem;
+    color:var(--primary-color);
+    -webkit-text-stroke: 1px rgb(98, 98, 98);
+}
+   
+.descripcion_cafe a{
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    background-color: var(--primary-color);
+    max-width:190px;
+    padding: 7px 15px;
+    border-radius: 35px;
+    border: 1.5px solid white;
+    max-height: 40px;
+    transition: all 0.3 ease;
+}
+.descripcion_cafe a:hover{
+    color:var(--primary-color);
+}
+.descripcion_cafe a:hover{
+    background-color: transparent;
+}
+.contenedor_Imagen_Cafe_Irlandes, .contenedor_Imagen_Cafe_Ingles, 
+.contenedor_Imagen_Cafe_Capuchino, .contenedor_Imagen_Cafe_Expreso{
+    display: flex;
+    width: 98vw;  
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* cambia con el café */
+.contenedor_Imagen_Cafe_Irlandes{
+    background: linear-gradient(100deg, #000000, #00000020),url(../assets/img/preparando_irlandes.jpg);
+}
+
+.contenedor_Imagen_Cafe_Ingles{
+    background: linear-gradient(100deg, #000000, #00000020),url(../assets/img/gallery2.jpg);
+}
+.contenedor_Imagen_Cafe_Capuchino{
+    background: linear-gradient(100deg, #000000, #00000020),url(../assets/img/capuchino-category.jpg);
+}
+.contenedor_Imagen_Cafe_Expreso{
+    background: linear-gradient(100deg, #000000, #00000020),url(../assets/img/gallery3.jpg);
+}
+

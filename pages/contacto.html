@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Cofee©</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    
+    <link rel="shortcut icon" href="../assets/img/Caffe-icono.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="formulario_Contacto">
+            <div class="form_Contacto" >
+                <form action="">
+                    <fieldset>
+                        <legend>Contacto</legend>
+                        <div class="form_Nombre">
+                            <label for="nombre">Ingresa tu/s nonmbre/s: </label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu/s nombre/s">
+                        </div>
+                        <div class="form_Apellido">
+                            <label for="apellido">Ingresa tu/s apellido/s: </label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Tu/s apellido/s">
+                        </div>
+                        <div class="form_Email">
+                            <label for="email">Ingresa tu Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Tu mail">
+                        </div>
+                        <div class="form_Telefono">
+                            <label for="telefono">Ingresa tu teléfono: </label>
+                            <input type="tel" id="telefono" name="telefono" placeholder="Tu teléfono">
+                        </div>
+                       <div class="form_Calificacion">
+                            <label for="calificacion">Elige tu calificación</label>
+                            <select name="calificacion">
+                                <option value="5">★★★★★</option>
+                                <option value="4">★★★★☆</option>
+                                <option value="3">★★★☆☆</option>
+                                <option value="2">★★☆☆☆</option>
+                                <option value="1">★☆☆☆☆</option>
+                            </select>
+                        </div>
+                        <div class="form_cometarios">
+                            <label for="comentario">Ingresa tus cometarios: </label>
+                            <textarea id="comentarios" name="comentario"  rows="5" cols="30" >Tus cometarios...</textarea> 
+                        </div>
+                        
+                        <div class="form_Enviar">
+                            <input type="reset" class="reset">
+                            <input type="submit" onclick="alert('Los datos ingresados son:\n'+ 
+                            'Nombre/s: ' + nombre.value+'\n'+
+                            'Apellido/s: ' + apellido.value+'\n'+
+                            'Email: ' + email.value+'\n'+
+                            'Teléfono: ' + telefono.value+'\n'+
+                            'Tu calificacion es: ' +calificacion.value+' estrellas\n'+
+                            'Comentarios: '+ comentario.value+
+                            '\n Gracias por tus comentarios nos ayudan a brindarte un mejor servicio 😀'
+                            )" id="enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+    </section> 
+    <!--whatsapp_Te_sigue  -->
+    <div class="whatsapp">
+        <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Cofee©</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- iconos -->
+    <link rel="shortcut icon" href="./assets/img/Caffe-icono.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="menuSuperior">
+            <div class="telefono">
+                <!-- <P>Contacto:</P> -->
+                <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="titulo">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h1>Lili Coffee</h1>
+            </div>
+            <div class="carrito_User">
+                <i class="fa-solid fa-user" onclick="alert('Usuario')"></i>
+                <i class="fa-solid fa-cart-shopping" onclick="alert('Carrito')"></i>
+                <div class="contenido_carrito">
+                    <span class="texto">Carrito</span>
+                    <span class="numero">(0)</span>
+                </div>
+            </div>
+        </div>
+        <nav class="menuInferior">
+            <div class="menuBar">
+                <ul>
+                    <li class="dropdown"><i class="fa fa-caret-down"></i> Café de especialidad
+                    <div class="dropdown-content">
+                        <a href="./pages/cafeirlandes.html">Café Irish</a>
+                        <a href="pages/cafeIngles.html" target="_blank">Café Ingles</a>
+                        <a href="./pages/cafecapuchino.html">Capuchino</a>
+                        <a href="./pages/cafeexpreso.html">Expreso</a>
+                    </div>
+                </li>
+                    <li><a href="./pages/contacto.html" target="_blank" title="Escribenos">Contacto</a></li>
+                    <li><a href="./pages/menu.html" target="_blank" title="Ver nuestro menú">Menu</a></li>
+                </ul>
+            </div>
+            <form class="buscar">
+                <input type="search" id="texto-Busqueda" name="busqueda" placeholder="Buscar">
+                <button class="btn-search" onclick="alert('No se se encontro: '+busqueda.value)">
+                    <a href="#" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="baner">
+            <div class="contenido-Baner">
+                <p>Café Delicioso</p>
+                <h2>100% Natural.<br>Somos Tostadores.</h2>
+                <a href="#" onclick="alert('Comprar Proximamente')"><i class="fa-solid fa-money-check-dollar"> Comprar</i></a>
+            </div>
+        </section>
+        <section class="productos_Destacados">
+            <h2 class="tituloDestacados">Productos Destacados</h2>
+            <div class="grilla_Destacados">
+                <div class="destado">
+                    <div class="contenedor_imagen">
+                        <div class="destacado_Botones">
+                            <i class="fa-regular fa-heart" onclick="alert('A favoritos Proximate')"></i>
+                        </div>
+                        <img src="./assets/img/cafe-irish.jpg" alt="Café Irlandes">
+                    </div>
+                    <div class="destacado_Menu_Card">
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Irish</h3>
+                        <div class="agregar">
+                            <i class="fa-solid fa-basket-shopping" onclick="alert('Comprar proximamente')"></i>
+                            <p>$5200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destado">
+                    <div class="contenedor_imagen">
+                        <div class="destacado_Botones">
+                            <i class="fa-regular fa-heart" onclick="alert('A favoritos Proximate')"></i>
+                        </div>
+                        <img src="./assets/img/cafe-ingles.jpg" alt="Café Ingles">
+                    </div>
+                    <div class="destacado_Menu_Card">
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Ingles<Inp></Inp></h3>
+                        <div class="agregar">
+                            <!-- <span class="tooltipText">Comprar</span> -->
+                            <i class="fa-solid fa-basket-shopping" onclick="alert('Comprar proximamente')"></i>
+                            <p>$5200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destado">
+                    <div class="contenedor_imagen">
+                        <div class="destacado_Botones">
+                            <i class="fa-regular fa-heart" onclick="alert('A favoritos Proximate')"></i>
+                        </div>
+                        <img src="./assets/img/cafe-australiano.jpg" alt="Café Australiano">
+                    </div>
+                    <div class="destacado_Menu_Card">
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Australiano</h3>
+                        <div class="agregar">
+                            <!-- <span class="tooltipText">Comprar</span> -->
+                            <i class="fa-solid fa-basket-shopping" onclick="alert('Comprar proximamente')"></i>
+                            <p>$5200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="destado">
+                    <div class="contenedor_imagen">
+                        <div class="destacado_Botones">
+                            <i class="fa-regular fa-heart" onclick="alert('A favoritos Proximate')"></i>
+                        </div>
+                        <img src="./assets/img/cafe-helado.jpg" alt="Café Helado">
+                    </div>
+                    <div class="destacado_Menu_Card">
+                        <div class="estrellas">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Café Helado</h3>
+                        <div class="agregar">
+                            <!-- <span class="tooltipText">Comprar</span> -->
+                            <i class="fa-solid fa-basket-shopping" onclick="alert('Comprar proximamente')"></i>
+                            <p>$5200</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="galeria">
+            <img src="./assets/img/gallery1.jpg" alt=""class="gallery-img-1">
+            <img src="./assets/img/gallery2.jpg" alt=""class="gallery-img-2">
+            <img src="./assets/img/gallery3.jpg" alt=""class="gallery-img-3">
+            <img src="./assets/img/gallery4.jpg" alt=""class="gallery-img-4">
+            <img src="./assets/img/gallery5.jpg" alt=""class="gallery-img-5">
+            <img src="./assets/img/moca-category.jpg" alt=""class="gallery-img-5">
+            <img src="./assets/img/capuchino-category.jpg" alt=""class="gallery-img-5">
+        </section>
+        <section class="blog">
+            <h1>Últimos Blogs</h1>
+            <div class="entradas_blog">
+                <div class="entrada_blog">
+                    <div class="entrada_imagen">
+                        <img src="./assets/img/blog-1.jpg" alt="">
+                    </div> 
+                    <div class="contenido_blog">
+                        <h3>Lorem ipsum dolor sit </h3><br>
+                        <p class="fecha">29 de abril del 2025</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur dolores aliquid id, libero quisquam porro fugiat ipsum, quo pariatur non quae? Ad, impedit voluptate. Saepe ratione facere cumque repellat.
+                        </p>
+                        <div class="contiene_btn">
+                            <div class="btn_leermas" onclick="alert('Leer más Proximamente')">Ver más</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entrada_blog">
+                    <div class="entrada_imagen">
+                        <img src="./assets/img/blog-2.jpg" alt="">
+                    </div> 
+                    <div class="contenido_blog">
+                        <h3>Lorem ipsum dolor sit </h3><br>
+                        <p class="fecha">29 de abril del 2025</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur dolores aliquid id, libero quisquam porro fugiat ipsum, quo pariatur non quae? Ad, impedit voluptate. Saepe ratione facere cumque repellat.
+                        </p>
+                        <div class="contiene_btn">
+                            <div class="btn_leermas" onclick="alert('Leer más Proximamente')">Ver más</div>
+                        </div>
+                    </div>
+                </div>       
+                <div class="entrada_blog">
+                    <div class="entrada_imagen">
+                        <img src="./assets/img/blog-3.jpg" alt="">
+                    </div> 
+                    <div class="contenido_blog">
+                        <h3>Lorem ipsum dolor sit </h3><br>
+                        <p class="fecha">29 de abril del 2025</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur dolores aliquid id, libero quisquam porro fugiat ipsum, quo pariatur non quae? Ad, impedit voluptate. Saepe ratione facere cumque repellat.
+                        </p>
+                        <div class="contiene_btn">
+                            <div class="btn_leermas" onclick="alert('Leer más Proximamente')">Ver más</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>          
+    <footer>
+        <div class="contenedor_Footer">
+            <div class="menu_Footer">
+                <div class="contacto">
+                    <p>Información de contacto</p>
+                    <ul>
+                        <li> <span class="en_Negrita">Dirección: </span>Monte Alegre 1976. Argentina</li>
+                        <li><span class="en_Negrita">Teléfono: </span>1156738367</li>
+                        <li><span class="en_Negrita">Email: </span>info@lilicafee.cof</li>
+                    </ul>
+                </div>
+                <div class="informacion">
+                    <p>Información</p>
+                    <ul>
+                        <li class="informaciom_Li"><a href="./pages/menu.html"title="Ver el menu">Menu</a></li>
+                        <li class="informaciom_Li" ><a href="./pages/contacto.html" target="_blank">Contacto</a></li>
+                        <li class="informaciom_Li" onclick="alert('Lili Cofee©')">Acerca de....</li>
+                    </ul>
+                </div>
+                <div class="redes">
+                    <p>Seguinos:</p>
+                    <div class="face"><i class="fa-brands fa-facebook" onclick="alert('Facebook')"></i></div>
+                    <div class="instagram"><i class="fa-brands fa-square-instagram" onclick="alert('Instagram')"></i></div>
+                    <div class="youtube"><i class="fa-brands fa-youtube" onclick="alert('Youtube')"></i></div>
+                    <div class="twiter"><i class="fa-brands fa-square-x-twitter" onclick="alert('Twitter')"></i></div>
+                    <div class="pinterest"><i class="fa-brands fa-pinterest" onclick="alert('Pinterest')"></i></div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Lili Cofee©.</p>
+                <img src="./assets/img/payment.png" alt="medios de pago">
+            </div>
+        </div>
+    </footer>
+    <!--whatsapp_Te_sigue  -->
+    <div class="whatsapp">
+        <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Cofee©</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- iconos -->
+    <link rel="shortcut icon" href="../assets/img/Caffe-icono.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="menuSuperior">
+            <div class="telefono">
+                <!-- <P>Contacto:</P> -->
+                <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="titulo">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h1>Lili Coffee</h1>
+            </div>
+            <div class="carrito_User">
+                <i class="fa-solid fa-user" onclick="alert('Usuario')"></i>
+                <i class="fa-solid fa-cart-shopping" onclick="alert('Carrito')"></i>
+                <div class="contenido_carrito">
+                    <span class="texto">Carrito</span>
+                    <span class="numero">(0)</span>
+                </div>
+            </div>
+        </div>
+        <nav class="menuInferior">
+            <div class="menuBar">
+                <ul>
+                    <li><a href="../index.html" title="Ir a la página principal">Inicio</a></li>
+                    <li class="dropdown"><i class="fa fa-caret-down"></i> Café de especialidad
+                        <div class="dropdown-content">
+                            <a href="../pages/cafeirlandes.html">Café Irish</a>
+                            <!-- <a href="#" onclick="alert('Presionaste Café Ingles')">Café Ingles</a> -->
+                            <a href="./cafecapuchino.html">Capuchino</a>
+                            <a href="./cafeexpreso.html">Expreso</a>
+                        </div>
+                    </li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                    <li><a href="./pages/menu.html" target="_blank" title="Ver nuestro menú">Menu</a></li>
+                </ul>
+            </div>
+            <form class="buscar">
+                <input type="search" id="texto-Busqueda" name="busqueda" placeholder="Buscar">
+                <button class="btn-search" onclick="alert('No se se encontro: '+busqueda.value)">
+                    <a href="#" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </button>
+            </form>
+        </nav>
+    </header>    
+    <main>
+        <section class="principal_Cafes">
+            <!-- <h2>Café Ingles</h2> -->
+            <div class="contenedor_Cafes">
+                <div class="contenedor_Imagen_Cafe_Ingles">
+                    <div class="descripcion_cafe">
+                        <h3>Café Ingles</h3><br>
+                        <p>"Café de alta calidad, hecho con amor y dedicación." Nuestro Café Inglés encarna la tradición y el cuidado en cada sorbo. Es la experiencia perfecta para una pausa reconfortante y llena de sabor. ¡Un verdadero deleite para tu paladar!
+                        </p>
+                        <a href="#" onclick="alert('Para comprar comunicate por whatsapp')"><i class="fa-solid fa-money-check-dollar"> Comprar</i></a>
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <!--whatsapp_Te_sigue  -->
+    <div class="whatsapp">
+        <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>

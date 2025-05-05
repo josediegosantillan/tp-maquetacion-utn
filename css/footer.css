@@ -1,0 +1,72 @@
+.contenedor_Footer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+}
+.menu_Footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 1rem;
+    padding: 0 2rem;
+
+}
+.menu_Footer p{
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-bottom: 0.7rem;
+}
+.menu_Footer ul{
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.7rem;
+}
+.en_Negrita{
+    font-weight:bolder;
+    font-size: 1.4rem;
+}
+.informaciom_Li:hover{
+    cursor: pointer;
+    color:white;
+}
+.redes div {
+    display: inline;
+    font-size: 2.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.redes div:hover{
+    opacity: 1;
+}
+.face{
+    color: rgb(0, 0, 255);
+}
+.instagram{
+    color:rgb(255, 0, 136)
+}
+.youtube{
+    color:rgb(255, 0, 0);
+}
+.pinterest{
+    color:rgb(245, 0, 49);
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 2REM;
+    /* flex-direction: column; */
+}
+.copyright p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 0.7rem;
+}
+.informaciom_Li a {
+    text-decoration: none;
+    color: black;
+}
+.informaciom_Li a:hover{
+    color:white;
+}

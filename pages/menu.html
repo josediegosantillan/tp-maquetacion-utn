@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lili Cofee©</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <!-- iconos -->
+    <link rel="shortcut icon" href="../assets/img/Caffe-icono.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="menuSuperior">
+            <div class="telefono">
+                <!-- <P>Contacto:</P> -->
+                <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="titulo">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h1>Lili Coffee</h1>
+            </div>
+            <div class="carrito_User">
+                <i class="fa-solid fa-user" onclick="alert('Usuario')"></i>
+                <i class="fa-solid fa-cart-shopping" onclick="alert('Carrito')"></i>
+                <div class="contenido_carrito">
+                    <span class="texto">Carrito</span>
+                    <span class="numero">(0)</span>
+                </div>
+            </div>
+        </div>
+        <nav class="menuInferior">
+            <div class="menuBar">
+                <ul>
+                    <li><a href="../index.html" title="Ir a la página principal">Inicio</a></li>
+                    <li class="dropdown"><i class="fa fa-caret-down"></i> Café de especialidad
+                        <div class="dropdown-content">
+                            <a href="../pages/cafeirlandes.html">Café Irish</a>
+                            <a href="./cafeIngles.html">Café Ingles</a>
+                            <a href="./cafecapuchino.html">Capuchino</a>
+
+                            <a href="./cafeexpreso.html">Expreso</a>
+                        </div>
+                    </li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <!-- <li><a href="./pages/menu.html" target="_blank" title="Ver nuestro menú">Menu</a></li> -->
+                </ul>
+            </div>
+            <form class="buscar">
+                <input type="search" id="texto-Busqueda" name="busqueda" placeholder="Buscar">
+                <button class="btn-search" onclick="alert('No se se encontro: '+busqueda.value)">
+                    <a href="#" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </button>
+            </form>
+        </nav>
+    </header>    
+    <seccion class="banner_menu">
+        <div class="imagen_menu">
+            <img src="../assets/img/Sanguches.png" alt="">
+        </div>
+        <div class="imagen_menu">
+            <img src="../assets/img/huevos.png" alt="">
+        </div>
+        <div class="imagen_menu">
+            <img src="../assets/img/comida_varios.png" alt="">
+        </div>
+    </seccion>
+    <main class="class_Menu">
+        <div class="seccion">
+            <h2>SÁNDWICHES</h2>
+            <div class="item">
+                <span class="item-name">CIABATTA DE POLLO</span>
+                <span class="item-price">$9000</span>
+                <br>
+                Pollo, lechuga, cherrys, cebolla y mayonesa de ajo en pan ciabatta.
+            </div>
+            <div class="item">
+                <span class="item-name">JAMÓN CRUDO</span>
+                <span class="item-price">$10300</span>
+                <br>
+                Rúcula, tomates secos, parmesano y aceite de oliva en pan ciabatta.
+            </div>
+            <div class="item">
+                <span class="item-name">SALMÓN AHUMADO</span>
+                <span class="item-price">$15000</span>
+                <br>
+                Pan de cebolla morada, rúcula y queso crema en pan bagel.
+            </div>
+            <div class="item">
+                <span class="item-name">LOMITO AHUMADO BAGEL</span>
+                <span class="item-price">$8700</span>
+                <br>
+                Rúcula, queso crema con ciboulette, huevo frito y lomito ahumado con finas hierbas.
+            </div>
+            <div class="item">
+                <span class="item-name">BAGEL</span>
+                <span class="item-price">$9000</span>
+                <br>
+                Huevo, panceta, queso cheddar y finlandia.
+            </div>
+            <div class="item">
+                <span class="item-name">TOSTADO</span>
+                <span class="item-price">$7000</span>
+                <br>
+                De jamón natural y queso en pan pita (árabe).
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>ENSALADAS</h2>
+            <div class="item">
+                <span class="item-name">TIBIA DE POLLO</span>
+                <span class="item-price">$9500</span>
+                <br>
+                Mix de hojas verdes, cherrys, palta, vinagreta de mostaza y miel, semillas de sésamo.
+            </div>
+            <div class="item">
+                <span class="item-name">IBÉRICA</span>
+                <span class="item-price">$9900</span>
+                <br>
+                Mix hojas verdes, jamón crudo, tomates asados, portobellos, parmesano, crocante de almendras, reducción de aceto y oliva.
+            </div>
+            <div class="item">
+                <span class="item-name">CÉSAR CON POLLO</span>
+                <span class="item-price">$9200</span>
+                <br>
+                Lechuga romana, croutons de queso, salsa césar.
+            </div>
+            <div class="item">
+                <span class="item-name">QUINOA Y MANGO</span>
+                <span class="item-price">$9600</span>
+                <br>
+                Quinoa, mix de verdes, rúcula, mango, queso azul, crutones saborizados, cherrys asados, huevo poché, clorofila.
+            </div>
+            <div class="item">
+                <span class="item-name">SALMÓN AHUMADO</span>
+                <span class="item-price">$14600</span>
+                <br>
+                Mix de hojas verdes, palta, cherrys confitados, queso brie, sésamo, cebolla en plumas, salsa thai.
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>WRAPS</h2>
+            <div class="item">
+                <span class="item-name">CÉSAR CON POLLO</span>
+                <span class="item-price">$9500</span>
+                <br>
+                Lechuga, queso parmesano, pollo y aderezo césar.
+            </div>
+            <div class="item">
+                <span class="item-name">VEGETALES Y LEGUMBRES</span>
+                <span class="item-price">$9000</span>
+                <br>
+                Zucchini, berenjenas, cebolla, cabutia, queso dambo, lentejas, maní, alioli.
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>TOSTONES</h2>
+            <div class="item">
+                <span class="item-name">FLORENTINA</span>
+                <span class="item-price">$8900</span>
+                <br>
+                Pan de masa madre, salsa de espinaca, cherrys confitados, brie, oliva, microgreens, huevo a la plancha.
+            </div>
+            <div class="item">
+                <span class="item-name">FUNGI</span>
+                <span class="item-price">$9600</span>
+                <br>
+                Pan de masa madre, hummus de lentejas, portobellos, tomates asados, cebolla morada, oliva, pimienta, microgreens, huevo a la plancha.
+            </div>
+            <div class="item">
+                <span class="item-name">JAMÓN CRUDO</span>
+                <span class="item-price">$9500</span>
+                <br>
+                Pan de masa madre, rúcula, cebolla caramelizada, portobellos, parmesano y queso crema.
+            </div>
+            <div class="item">
+                <span class="item-name">SALMÓN AHUMADO</span>
+                <span class="item-price">$13000</span>
+                <br>
+                Pan de masa madre, palta, queso crema y sésamo.
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>LIMONADAS</h2>
+            <div class="item">
+                <span class="item-name">CLÁSICA</span>
+                <br>
+                INDIVIDUAL 
+                <span class="item-price">$2300</span>
+                <br>
+                JARRA 
+                <br>
+                <span class="item-price">$4200</span>
+            </div>
+            <div class="item">
+                <span class="item-name">MENTA Y JENGIBRE</span>
+                <br>
+                INDIVIDUAL 
+                <span class="item-price">$2600</span>
+                <br>
+                JARRA
+                <br>
+                <span class="item-price">$4600</span>
+            </div>
+            <div class="item">
+                <span class="item-name">FRUTILLA</span>
+                <br>
+                <span class="item-price">$2700</span>
+                <br>
+                INDIVIDUAL
+                <br>
+                <span class="item-price">$4800</span>
+                <br>
+                JARRA 
+                
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>BEBIDAS</h2>
+            <div class="item">
+                <span class="item-name">GASEOSAS 500ml</span>
+                <span class="item-price">$2800</span>
+                <br>
+                Coca-Cola / Coca-Cola Zero / Sprite
+            </div>
+            <div class="item">
+                <span class="item-name">GASEOSAS 310ml</span>
+                <span class="item-price">$2800</span>
+                <br>
+                Schweppes Pomelo / Tónica
+            </div>
+            <div class="item">
+                <span class="item-name">AGUA CON O SIN GAS 500ml</span>
+                <span class="item-price">$2800</span>
+            </div>
+            <div class="item">
+                <span class="item-name">AGUA SABORIZADA 500ml</span>
+                <span class="item-price">$2800</span>
+                <br>
+                Aquarius Pomelo / Manzana
+            </div>
+            <div class="item">
+                <span class="item-name">CERVEZA</span>
+                <span class="item-price">$4000</span>
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>JUGOS Y LICUADOS</h2>
+            <div class="item">
+                <span class="item-name">EXPRIMIDO DE NARANJA</span>
+                <span class="item-price">$3800</span>
+            </div>
+            <div class="item">
+                <span class="item-name">FRUTILLAS CON NARANJA</span>
+                <span class="item-price">$4400</span>
+            </div>
+            <div class="item">
+                <span class="item-name">MANGO CON MARACUYÁ</span>
+                <span class="item-price">$5300</span>
+            </div>
+            <div class="item">
+                <span class="item-name">BANANA CON LECHE</span>
+                <span class="item-price">$4300</span>
+            </div>
+            <div class="item">
+                <span class="item-name">SMOOTHIE DE FRUTOS ROJOS</span>
+                <span class="item-price">$5700</span>
+            </div>
+            <div class="item">
+                <span class="item-name">MANGO Y NARANJA</span>
+                <span class="item-price">$5300</span>
+            </div>
+        </div>
+
+        <div class="seccion">
+            <h2>APERITIVOS</h2>
+            <div class="item">
+                <span class="item-name">APEROL</span>
+                <span class="item-price">$6200</span>
+            </div>
+            <div class="item">
+                <span class="item-name">CAMPARI</span>
+                <span class="item-price">$6200</span>
+            </div>
+            <div class="item">
+                <span class="item-name">CYNAR</span>
+                <span class="item-price">$6200</span>
+            </div>
+            <div class="item">
+                <span class="item-name">GIN TONIC</span>
+                <span class="item-price">$6500</span>
+            </div>
+        </div>
+
+        <div class="extras">
+            EXTRAS: CHERRY $1500 / HUEVOS REVUELTOS (2) $2100 / DIP PALTA $2000 / PALTA $2100 / CHEDDAR $1300 / QUESO $1100 / RÚCULA $1300 / POLLO $1700 / SALMÓN AHUMADO $3000 / JAMÓN CRUDO $2700 / PANCETA $1800 / TOSTONES (2) PAN DE MASA MADRE $2400 / NUTELLA $2500 / MERMELADA O DDL $1200 / FINLANDIA $1500
+        </div>
+    </main>
+    <!--whatsapp_Te_sigue  -->
+    <div class="whatsapp">
+        <a href="https://wa.me/5491132128978?text=%21Hola!%20Quiero%20consultar%20sobre..." target="_blank" title="Abrir WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</body>
+</html>
